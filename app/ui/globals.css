@@ -1,0 +1,36 @@
+:root {
+  --bg: #18181c;
+  --bgSoft: #202024;
+  --text: white;
+  --textSoft: #b7bac1;
+  /* --hoverclr: #2c2b3c; */
+  --hoverclr: #38383c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--textSoft);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
